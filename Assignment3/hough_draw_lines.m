@@ -6,8 +6,8 @@ function hough_draw_lines(I, rho, theta)
 %  - rho: displacement parameter
 %  - theta: angle parameter
 
-h = size(I, 1);
-w = size(I, 2);
+w = size(I, 1);
+h = size(I, 2);
 
 imshow(I);
 hold on;
